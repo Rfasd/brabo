@@ -41,8 +41,14 @@ if (quadrado) {
     }
   });
 }
-if (document.body.classList.contains("brabos")) {
-  alert("Clicou firme heim pai!");
-  alert("Vai flamengo!");
-  alert("vai clicar mais 20x");
-}
+window.addEventListener("load", function () {
+  const brabo = document.querySelector(".brabo");
+  if (brabo) {
+    alert("Clicou firme heim pai!");
+    alert("Vai flamengo!");
+    alert("vai clicar mais 20x");
+    alert("vai clicar mais 19x");
+    alert("vai clicar mais 18x");
+    alert("zoa");
+  }
+});
