@@ -1,0 +1,38 @@
+#quadrado {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin: 20px auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#quadrado h1 {
+  text-align: center;
+  color: white;
+  align-self: center;
+}
+.brabo {
+  width: 100%;
+  height: auto;
+}
+div#num {
+  width: 50%;
+  margin: auto;
+  justify-items: center;
+}
+
+div#num h3 {
+  font-size: 2rem;
+  text-align-last: center;
+}
+
+div#num p {
+  font-size: 1.5rem;
+}
+
+span#count {
+  color: red;
+  font-weight: 800;
+}
